@@ -1,0 +1,33 @@
+.btn{    
+    width: 250px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 3px;  
+
+    border: 1px solid #222;
+    font-style: normal;
+
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #222;
+
+    transition: 300ms;
+    cursor:pointer;
+}
+
+.btn-primary{
+    background: #c3c3c3;
+    color: #222;
+}
+
+.btn-primary:hover{
+    background: #c1c1c1;
+}
+
+@media (max-width:700px) {   
+    .btn{
+        height: 50px;
+        margin: 5px;
+    }
+}
